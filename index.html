@@ -3,71 +3,126 @@
 <html>
     <head>
         <title>My library</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <meta name=”viewport” content="width:device-width, initial-scale=1">
+        <style>
+          @media screen and (min-width: 600px) {
+             h1 {
+              font-size: 60px;
+             }
+            }
+          @media screen and (max-width: 600px) {
+             h1 {
+              font-size: 30px;
+             }
+            }
+
+        </style>      
     </head>
 
     <body style="background-color: beige;">
-        <h1 style="color: rgb(110, 17, 17);">Reading List</h1>
-        <h3 style="color: brown;">by Farizka Akhena</h3> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"  href="https://farizkakhena.github.io/">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contacts
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href=></a>
+                    <a class="dropdown-item" href="https://www.instagram.com/farizkakhena/">Instagram</a>
+                    <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://frzkhena.blogspot.com/">Personal Blog</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        <h1 style="color: rgb(110, 17, 17);text-align: center;">Reading List</h1>
+        <h4 style="color: brown;text-align:center;">by Farizka Akhena</h4> 
+        <div style="display:flex;" id="Book">
         <img src="Library.jpg" 
-        alt="Books" 
+        alt="Library" 
         height="400" 
-        width="270">
-        
-        
+        width="300">
+
+        <img src="Read.jpg" 
+        alt="Reading" 
+        height="400" 
+        width="400">
+
+        <img src="reading book.gif" 
+        alt="Reading gif" 
+        height="400" 
+        width="345">
+
+        <img src="Library mirror.jpg" 
+        alt="Library 2" 
+        height="400" 
+        width="300">
+        </div>
+
         <div style="background-color: palegoldenrod;">
-            <h3 style="color:rgb(65, 39, 39);">Welcome to my reading corner</h3>
-            <strong>“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.” – Dr. Seuss</strong>
-            <p> 
-               I just start to read more books, so I might say that actually I haven't read a lot of books. I made this website to help and motivate me to read more. Hope it can be helpful for you too. I'll write some kind of reviews about books that I've read and interesting for me. 
+            <h2 style="color:rgb(65, 39, 39);">Welcome to my reading corner</h2>
+            <strong style="font-size: 18px;">“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.” – Dr. Seuss</strong>
+            <p style="font-size: 18px;"> 
+               I just start to read more books, so I might say that actually I haven't read a lot of books. I made this website to help and motivate me to read more. Hope it can be helpful for you too. So here is the list of books that I've read which I found interesting.
             </p>
         </div>
 
         <div>
             <h2 style="color:rgb(78, 52, 27)">Books</h2>
         <ul>
-            <li style="font-size: 20px;">Love for Imperfect Things</li>
-            <h3 style="font-weight: lighter;">-Haemin Sumin<h3>
-            <a href="LFIT.html">here</a>!
+            <li><a style="font-size: 20px; color:black" href="LFIT.html">Love for Imperfect Things</a></li>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Haemin Sumin<h3>
+            
         </ul>
 
         <ul>
-            <li style="font-size: 20px;">Sunset Bersama Rosie</li>
-            <h3 style="font-weight: lighter;">-Tere Liye<h3>
-            <a href="https://frzkhena.blogspot.com/2019/12/review-buku-sunset-bersama-rosie-tere.html">here</a>!
+            <li><a style="font-size: 20px; color:black" href="https://frzkhena.blogspot.com/2019/12/review-buku-sunset-bersama-rosie-tere.html">Sunset bersama Rosie</a></li>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Tere Liye<h3>
         </ul>
 
         <ul>
-            <li style="font-size: 20px;">Educated</li>
-            <h3 style="font-weight: lighter;">-Tara Westover<h3>
+            <li><a style="font-size: 20px; color:black" href="Educated.html">Educated</a></li>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Tara Westover<h3>
         </ul>
 
         <ul>
             <li style="font-size: 20px;">The Memory of Things</li>
-            <h3 style="font-weight: lighter;">-Gae Polisner<h3>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Gae Polisner<h3>
         </ul>
 
         <ul>
             <li style="font-size: 20px;">Flipped</li>
-            <h3 style="font-weight: lighter;">-Van Draanen Wenderlin<h3>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Van Draanen Wenderlin<h3>
+        </ul>
+
+        <ul>
+            <li style="font-size: 20px;">The Tipping Point</li>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Malcolm Gladwell<h3>
         </ul>
 
         <ul>
             <li style="font-size: 20px;">Hujan</li>
-            <h3 style="font-weight: lighter;">-Tere Liye<h3>
-        </ul>
-
-        <ul>
-            <li style="font-size: 20px;">Beastly</li>
-            <h3 style="font-weight: lighter;">-Alex Finn<h3>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Tere Liye<h3>
         </ul>
 
         <ul>
             <li style="font-size: 20px;">Girls in the Dark</li>
-            <h3 style="font-weight: lighter;">-Rikako Akiyoshi<h3>
+            <h3 style="font-weight: lighter; font-size: 19px;">-Rikako Akiyoshi<h3>
         </ul>
 
         </div>
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
 
